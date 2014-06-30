@@ -2,6 +2,9 @@
 Write a function to find the longest common prefix string amongst an array of strings.
 */
 
+
+// LCP array: http://en.wikipedia.org/wiki/LCP_array
+
 // Solution 1
 // Checking the longest common prefix char-by-char: 
 // Get the char in the first string, compare it to every other strings in the corresponding position.
