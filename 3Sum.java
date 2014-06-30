@@ -12,6 +12,8 @@ The solution set must not contain duplicate triplets.
     (-1, -1, 2)
 */
 
+
+// TC: O(n^2), SC: O(1)
 // http://www.programcreek.com/2012/12/leetcode-3sum/
 // http://leetcode.com/2010/04/finding-all-unique-triplets-that-sums.html
 public class Solution {
