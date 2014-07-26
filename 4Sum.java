@@ -14,6 +14,9 @@ The solution set must not contain duplicate quadruplets.
 */
 
 // TC: O(n^3), SC: O(1)
+// Other solutions:
+// 1. use hash: http://goo.gl/Bru4do
+// 2. better TC: http://goo.gl/pDOzHy
 public class Solution {
     public List<List<Integer>> fourSum(int[] num, int target) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();
